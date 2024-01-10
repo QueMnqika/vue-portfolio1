@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <router-link to="/">
-    <img class="img-fluid w-25 m-auto" src="" alt="logo" loading="lazy">
-    </router-link>
+        <router-link to="/">
+        <img class="img-fluid w-25 m-auto" src="../assets/que-m-logo.png" alt="logo" loading="lazy">
+        </router-link>
+  <div class="container-fluid d-flex justify-content-end">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,7 +11,8 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 me-5 mx-auto">
         <li class="nav-item">
           <router-link to="/" class="nav-link active">
-            Home
+            <img src="https://i.postimg.cc/0jdS2PKq/system-solid-41-home.gif" width="30px" alt="">
+            
           </router-link>
         </li>
         <li>
@@ -54,6 +55,7 @@
 
 
 <script>
+
 export default {
     name: 'Navbar',
     data(){
@@ -70,8 +72,6 @@ header, nav{
     display: flex;
     justify-content: space-between;
     background-color: #FFD700;
-    padding: 0;
-    margin: 0;
 }
 
 nav{

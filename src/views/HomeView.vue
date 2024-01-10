@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img src="../assets/landingPhoto.jpg" width="1519px" alt="">
+    <img src="../assets/landingPhoto.jpg" width="1519px" class="img-fluid">
   </div>
   <div class="title">
     <h1>{{ title }}</h1>
