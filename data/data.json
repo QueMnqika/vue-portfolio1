@@ -1,0 +1,137 @@
+{
+    "jobTitle": [
+        {
+            "title": "Hello, I am Qaqambile Mnqika an Aspiriing Fullstack Developer",
+            "photo": "",
+            "color": "#808080"
+        } 
+    ],
+    "about": [
+        ""
+    ],
+    "education": [
+        {
+            "id": 1,
+            "year": 2019,
+            "description": "I completed my Matric at Thembelihle High School",
+            "place": "Thembelihke High School",
+            "type": "National Senior Certificate",
+            "certificate": ""
+        },
+        {
+            "id": 2,
+            "year": 2021,
+            "description": "I got my certificates on Introduction to Mobile App Development",
+            "place": "MTN Business App Academy",
+            "type": "certificate",
+            "certificate": ""
+        },
+        {
+            "id": 3,
+            "year": 2022,
+            "description": "I got my certificates on Intro to Python",
+            "place": "Data Camp",
+            "type": "certificate",
+            "certificate": ""
+        },
+        {
+            "id": 4,
+            "year": 2022,
+            "description": "I got my certificate on Intro to Data Science with Python",
+            "place": "Data Camp",
+            "type": "certificate",
+            "certificate": ""
+        }
+    ],
+    "skills": [
+        {
+            "title": "Web Development",
+            "experience": "I have a 1 years of experience in web development using the following technologies: HTML, CSS & Bootstrap. I am still building websites with the technologies i have listed and also Learning Javascript along the way."
+        },
+        {
+            "title": "HTML",
+            "experience": "I started learning HTML in 2020 during lockdown, I self-studied until I became profficient with it."
+        },
+        {
+            "title": "CSS",
+            "experience": "Same as HTML, I also learnt how to use CSS in 2020 as well but in terms of being comfortable with CSS it took me 4 & half months to actually know what to do and how to do it before coding"
+        },
+        {
+            "title": "Git & GitHub",
+            "experience": "I started learning Git and Github in early 2023 with how to use the commands and to know what to actually do to send my work from local directory to remote repository"
+        },
+        {
+            "title": "Bootstrap",
+            "experience": "I started learning Bootstrap in Nov 2022 but with little knowledge but after attending LCA, I gained more experience and knowledge on how to properly use the framework."
+        },
+        {
+            "title": "Javascript",
+            "experience": "I started learning this year at Life Choices. I have tried learning JS on my own before but I needed someone to assist me with it, when I came to LCA I actually found an environment that helped me alot and showed me how to actually use it effectively"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Tashreeq",
+            "surname": "Lee",
+            "quotes": "Sipho Gcusa is always willing to lend a helping hand and his enthusiasm and dedication to his work is unmatched. He is organized, thorough, and always goes the extra mile to make sure a job is well done and always carries a smile with him wherever he goes.",
+            "profile": "https://i.postimg.cc/HsQJbWyP/IMG-1956.jpg"
+        },
+        {
+            "name": "Ntokozo",
+            "surname": "Sithebe",
+            "quotes": "His dedication to his craft, combined with his affable nature, makes him a valuable asset to any team. I have no doubt that Sipho will continue to make significant contributions to the field of coding and design. It is a privilege to work alongside such a dedicated and talented individual.",
+            "profile": "https://i.postimg.cc/QdwRsD6h/IMG-20230305-WA0010.jpg"
+        },
+        {
+            "name": "Simamnkele",
+            "surname": "Tancu",
+            "quotes": "I highly recommend Sipho Gcusa as a software developer. Her technical expertise, commitment to quality, and strong communication skills make her an asset to any team. I look forward to the opportunity to work with them again in the future.",
+            "profile": "https://i.postimg.cc/d3pb5KZW/IMG-20230210-WA0008.jpg"
+        },
+        {
+            "name": "Sivuyisiwe",
+            "surname": "Peter",
+            "quotes": "Asisipho is a very passionate person especially when it come to developing website ,he is good with both front and backend . He is a team player and your company would be lucky to have him as part of your team.",
+            "profile": "https://i.postimg.cc/qvyNXJ65/1000094544.jpg"
+        }
+    ],
+    "projects":[
+        {
+            "name": "Calculator",
+            "description": "I built this calculator using HTML, CSS and JavaScript.",
+            "image": "",
+            "gitHub": "",
+            "netlify": ""
+        },
+        {
+            "name": "Temperature Converter",
+            "description": "I also built this Temperature Converter using HTML5, CSS3 and JavaScript.",
+            "image": "",
+            "netlify": ""
+        },
+        {
+            "name": "Bootstrap Portfolio",
+            "description": "I built my portfolio using HTML5, CSS3, Bootstrap5, and Javascript.",
+            "image": "",
+            "netlify": ""
+        },
+        {
+            "name": "BMI Calculator",
+            "description": "I also built this BMI Calculator using HTML5, CSS3 and JavaScript.",
+            "image": "",
+            "netlify": ""
+        },
+        {
+            "name": "To Do List",
+            "description": "I built my To do list application using HTML5, CSS3 & Javascript",
+            "image": "",
+            "netlify": ""
+        },
+        {
+            "name": "Fresh.E Cafe",
+            "description": "I built the e-commerce using HTML5 & CSS3",
+            "image": "",
+            "netlify": ""
+        }
+    ]
+}
