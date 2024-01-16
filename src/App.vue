@@ -30,6 +30,7 @@ body{
   padding: 0;
   margin: 0;
   height: 100vh;
+  background-color: #f5f5f5 !important;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
