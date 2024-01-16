@@ -1,42 +1,63 @@
 <template>
-  <div class="container-fluid">
+  <div class="abt-container">
+    <h1>ABOUT QAQAMBILE</h1>
     <div class="about">
-      <h2>{{ introHeading }}</h2>
-      <p>{{ description }}</p>
-      <div class="pic-text">
-        <div class="picture">
-          <img src="" alt="">
+      <div class="about-content">
+        <div class="pic">
+          <img src="../assets/que.png" alt="">
         </div>
-        <div class="text">
-          <h2>My Achievements?</h2>
-          <div>
-            <p>{{ showingAwards()}}</p>
+        <div class="abt">
+          <div class="text">
+            <h2>Introduction</h2>
+            <p>Qaqambile is a hardworking and dedicated individual with a passion for UI/UX & Front-end development, I am driven to constantly improve my skills and knowledge. With a strong ability to work both independently and collaboratively, I am a valuable team member who is committed to delivering high-quality work. As someone who taught myself to code in 2020, I am constantly seeking new challenges and opportunities to grow as a software developer. I am excited to bring my passion, drive, and skills to a team where I can make a meaningful impact and contribute to innovative solutions.</p>
+          </div>
+          <div class="text">
+            <h2>Giving back to the community</h2>
+            <p>I have been involved with the College of Magic for more than 5 years and on the year I was a graduate, I volunteered in the organization for 6 months before I got an opportunity from the UCT Local School Learning Programme from Grade 10 to Grade 12. I volunteered alongside Anne Pawley who was the owner of the tuck shop at that time, serving breakfast and luncc to the Magic in Community student who does not have the means of such crucial meals of the day.</p>
+          </div>
+          <div class="text">
+            <h2>Activities & Hobbies</h2>
+            <ul>
+              <li>Video Gaming</li>
+              <li>Social Media Video Editing</li>
+              <li>Logo and Poster Design</li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>    
+    </div>
   </div>
 </template>
 <script>
 export default {
   name: 'about',
-  data(){
-    return{
-      introHeading: 'Who is Qaqambile?',
-      description: 'I am a hardworking and dedicated individual with excellent team working skills. I have the ability to work efficiently, both independently and as part of a team. I bring a positive attitude and a willingness to learn new things, that is where my passion for the tech industry began in 2020 when I started teaching yourself how to code for the very first time before I came to Life Choices Academy. Since then, I have been determined to become a great software developer and have continuously developing my skills through self-learning and practice. My commitment to self-improvement and the passion for coding are an evidence of my work and my desire to succeed a developer within the industry.',
-      awards: ['App Development', 'Introduction to Data Science in Python', 'Introduction to Python']
-    }
-  },
-  methods: {
-    showingAwards(){
-      for (let award in this.awards) {
-        return 
-      }
-    }
-  }
-}
+}  
 </script>
 
 <style scoped>
+
+  h1{
+    padding-top: 2% !important;
+  }
+  .about-content{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+  }
+
+  img{
+    height: 100vh !important;
+  }
+
+  ul{
+    list-style: none;
+  }
   
+  li{
+    font-size: 17px;
+  }
+
+  .text{
+    border-bottom: 1px solid #000;
+    margin-top: 5%;
+  }
 </style>
